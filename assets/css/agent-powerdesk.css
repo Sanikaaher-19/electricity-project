@@ -1,0 +1,59 @@
+/* Agent portal uses the same premium PowerDesk language with a government operations tone. */
+@import url("admin-powerdesk.css");
+
+body.powerdesk-agent {
+    background:
+        linear-gradient(180deg, rgba(37, 99, 235, 0.05), transparent 260px),
+        var(--pd-bg);
+}
+
+.powerdesk-agent .pd-logo {
+    background: linear-gradient(135deg, #2563eb, #23b7d9);
+}
+
+.powerdesk-agent .pd-header {
+    border-bottom: 4px solid rgba(35, 183, 217, 0.25);
+}
+
+.agent-work-banner {
+    background: linear-gradient(90deg, #101b2d, #164e7a);
+    border-radius: 18px;
+    color: #ffffff;
+    margin-bottom: 28px;
+    padding: 28px 32px;
+}
+
+.agent-work-banner small {
+    color: #7dd3fc;
+    display: block;
+    font-weight: 900;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.agent-work-banner h2 {
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0 0 8px;
+}
+
+.agent-work-banner p {
+    color: #cbdaf0;
+    margin: 0;
+}
+
+.agent-detail-layout {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: 1.25fr 0.75fr;
+}
+
+.agent-stat-grid {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+}
+
+@media (max-width: 1200px) {
+    .agent-detail-layout {
+        grid-template-columns: 1fr;
+    }
+}
