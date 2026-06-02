@@ -4,11 +4,17 @@ PowerDesk is a PHP and MySQL web application for managing electricity complaints
 
 ## Demo Video
 
-Watch the project demo:
+Click the preview image below to watch the project demo on YouTube:
 
-<video src="assets/demo/powerdesk-demo.mp4" controls width="100%"></video>
+[![PowerDesk Demo Preview](assets/screenshots/demo-video-thumbnail.png)](https://youtu.be/EVhTqEQ0-QY)
 
-[Watch / Download Demo Video](assets/demo/powerdesk-demo.mp4)
+[Watch Demo Video on YouTube](https://youtu.be/EVhTqEQ0-QY)
+
+More screenshots can be added in:
+
+```text
+assets/screenshots/
+```
 
 ## Features
 
